@@ -1,11 +1,9 @@
 # Todos
 
-## :wrench: Setup
-- [Setup Angular Material](https://material.angular.io/guide/getting-started)?
-
 ## :house: Building
-- Tile component
-- Page template component
+- Tile component (finish styling)
+- Detail page component
+- Component for displaying blogs/books
 - Fill out content
 - Overall styling/slickness
 

@@ -1,0 +1,28 @@
+{
+  "tiles": [
+    {
+      "id": 1,
+      "title": "Orbit Simulator",
+      "subtitle": "Java",
+      "blurb": "A two-dimensional physics sandbox.",
+      "image": "assets/images/orbit-simulator.jpg",
+      "repoLink": "https://github.com/esummers1/orbit-simulator"
+    },
+    {
+      "id": 2,
+      "title": "Ping",
+      "subtitle": "Java",
+      "blurb": "A spiritual successor to Pong.",
+      "image": "assets/images/pong.png",
+      "repoLink": "https://github.com/esummers1/ping"
+    },
+    {
+      "id": 3,
+      "title": "Agricultural Capitalism Simulator",
+      "subtitle": "Python",
+      "blurb": "A text-based farming business game, playable by an evolutionary algorithm.",
+      "image": "assets/images/acs.jpg",
+      "repoLink": "https://github.com/esummers1/agricultural-capitalism-simulator-py"
+    }
+  ]
+}

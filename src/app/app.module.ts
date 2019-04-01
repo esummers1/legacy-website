@@ -4,21 +4,36 @@ import { NgModule } from '@angular/core';
 
 // Components
 import { AppComponent } from './app.component';
-import { MainComponent } from 'src/app/components';
+import {
+  DividerComponent,
+  MainComponent,
+  TileComponent
+} from 'src/app/components';
 
 // Modules
 import { AppRoutingModule } from './app-routing.module';
+import { MaterialModule } from './material.module';
+
+// Services
+import { MainService } from './services/main.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent
+    DividerComponent,
+    MainComponent,
+    TileComponent
   ],
   imports: [
     AppRoutingModule,
-    BrowserModule
+    BrowserModule,
+    MaterialModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [
+    MainService
+  ],
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule { }

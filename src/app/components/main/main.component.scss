@@ -1,0 +1,9 @@
+@import 'src/assets/styles/variables';
+
+.main-container {
+  background: $container-background-color;
+  width: 70%;
+  min-height: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
