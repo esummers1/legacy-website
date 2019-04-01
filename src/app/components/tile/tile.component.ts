@@ -30,9 +30,8 @@ import { Tile } from 'src/app/models';
       </mat-card-content>
 
       <mat-card-actions>
-        <button mat-button>DEMO</button>
-
-        <a mat-raised-button [href]="tile.repoLink">SOURCE</a>
+        <button mat-button>MORE</button>
+        <a mat-button [href]="tile.repoLink">SOURCE</a>
       </mat-card-actions>
 
     </mat-card>

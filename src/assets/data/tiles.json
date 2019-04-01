@@ -23,6 +23,14 @@
       "blurb": "A text-based farming business game, playable by an evolutionary algorithm.",
       "image": "assets/images/acs.jpg",
       "repoLink": "https://github.com/esummers1/agricultural-capitalism-simulator-py"
+    },
+    {
+      "id": 4,
+      "title": "Google HashCode 2019",
+      "subtitle": "Python",
+      "blurb": "Further work on team Holy Guacamole's solution.",
+      "image": "assets/images/hashcode.jpg",
+      "repoLink": "https://github.com/esummers1/hashcode19"
     }
   ]
 }
