@@ -10,7 +10,11 @@ import * as tiles from 'src/assets/data/tiles.json';
 @Injectable()
 export class MainService {
 
-  provideTiles(): Tile[] {
-    return tiles.tiles;
+  provideProjectTiles(): Tile[] {
+    return tiles.projectTiles;
+  }
+
+  provideWritingTiles(): Tile[] {
+    return tiles.writingTiles;
   }
 }

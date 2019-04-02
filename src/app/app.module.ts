@@ -6,6 +6,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import {
   DividerComponent,
+  HeaderBarComponent,
+  IconButtonComponent,
   MainComponent,
   TileComponent
 } from 'src/app/components';
@@ -21,6 +23,8 @@ import { MainService } from './services/main.service';
   declarations: [
     AppComponent,
     DividerComponent,
+    HeaderBarComponent,
+    IconButtonComponent,
     MainComponent,
     TileComponent
   ],

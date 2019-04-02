@@ -3,7 +3,7 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'es-divider',
   template: `
-    <h2 class="heading">
+    <h2 class="divider__heading">
       {{ text }}
     </h2>
     

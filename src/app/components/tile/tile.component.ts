@@ -7,7 +7,7 @@ import { Tile } from 'src/app/models';
 @Component({
   selector: 'es-tile',
   template: `
-    <mat-card class="card__container">
+    <mat-card class="tile__container">
 
       <mat-card-header>
         <mat-card-title>
@@ -21,7 +21,7 @@ import { Tile } from 'src/app/models';
 
       <img
         mat-card-image
-        class="card__image"
+        class="tile__image"
         [src]="tile.image"
         alt="Preview of {{tile.title}}" />
 
@@ -31,7 +31,13 @@ import { Tile } from 'src/app/models';
 
       <mat-card-actions>
         <button mat-button>MORE</button>
-        <a mat-button [href]="tile.repoLink">SOURCE</a>
+
+        <a
+          *ngIf="tile.repoLink"
+          mat-button
+          [href]="tile.repoLink">
+            SOURCE
+        </a>
       </mat-card-actions>
 
     </mat-card>
