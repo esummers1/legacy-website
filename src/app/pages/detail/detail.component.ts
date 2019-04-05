@@ -26,9 +26,9 @@ import { MainService } from 'src/app/services';
 
         <img [src]="data.splashImage" class="body-image" />
 
-        <div>
+        <section class="detail-body">
           {{ data.content }}
-        </div>
+        </section>
 
       </body>
     </div>
