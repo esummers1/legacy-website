@@ -1,0 +1,8 @@
+@import 'src/assets/styles/variables';
+
+.detail-container {
+  padding: 30px;
+  text-align: left;
+  background: $container-background-color;
+  font-size: $font-body-size;
+}

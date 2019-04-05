@@ -2,10 +2,11 @@
 import { Injectable } from '@angular/core';
 
 // Models
-import { Tile } from 'src/app/models';
+import { Detail, Tile } from 'src/app/models';
 
 // Data
-import * as tiles from 'src/assets/data/tiles.json';
+import tiles from 'src/assets/data/tiles.json';
+import details from 'src/assets/data/details.json';
 
 @Injectable()
 export class MainService {
@@ -16,5 +17,9 @@ export class MainService {
 
   provideWritingTiles(): Tile[] {
     return tiles.writingTiles;
+  }
+
+  getDetail(id: string): Detail {
+    return details[id];
   }
 }

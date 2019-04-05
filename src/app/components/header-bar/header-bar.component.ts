@@ -11,9 +11,9 @@ import { Component, Input } from '@angular/core';
         icon="arrow_back">
       </es-icon-button>
 
-      {{ text }}
+      Eddie Summers
 
-      <span class="header-bar__actions">
+      <span class="actions">
         <es-icon-button
           url="https://github.com/esummers1"
           icon="code">
@@ -30,10 +30,8 @@ import { Component, Input } from '@angular/core';
         </es-icon-button>
       </span>
     </mat-toolbar>
-  `,
-  styleUrls: ['./header-bar.component.scss']
+  `
 })
 export class HeaderBarComponent {
-  @Input() text: string;
   @Input() showBack: boolean = true;
 }

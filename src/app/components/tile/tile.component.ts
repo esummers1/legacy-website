@@ -30,14 +30,16 @@ import { Tile } from 'src/app/models';
       </mat-card-content>
 
       <mat-card-actions>
-        <button mat-button>MORE</button>
+        <es-text-button
+          text="MORE"
+          [url]="getDetailLink()">
+        </es-text-button>
 
-        <a
+        <es-text-button
           *ngIf="tile.repoLink"
-          mat-button
-          [href]="tile.repoLink">
-            SOURCE
-        </a>
+          text="SOURCE"
+          [url]="tile.repoLink">
+        </es-text-button>
       </mat-card-actions>
 
     </mat-card>
@@ -46,4 +48,8 @@ import { Tile } from 'src/app/models';
 })
 export class TileComponent {
   @Input() tile: Tile;
+
+  getDetailLink(): string {
+    return 'detail/' + this.tile.id;
+  }
 }

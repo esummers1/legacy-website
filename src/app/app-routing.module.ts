@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 // Components
-import { MainComponent } from 'src/app/components';
+import { DetailComponent, MainComponent } from 'src/app/pages';
 
 const ROUTES: Routes = [
   {
@@ -14,6 +14,10 @@ const ROUTES: Routes = [
   {
     path: 'main',
     component: MainComponent
+  },
+  {
+    path: 'detail/:id',
+    component: DetailComponent
   }
 ];
 

@@ -4,11 +4,12 @@ import { NgModule } from '@angular/core';
 
 // Components
 import { AppComponent } from './app.component';
+import { DetailComponent, MainComponent } from 'src/app/pages';
 import {
   DividerComponent,
   HeaderBarComponent,
   IconButtonComponent,
-  MainComponent,
+  TextButtonComponent,
   TileComponent
 } from 'src/app/components';
 
@@ -22,10 +23,12 @@ import { MainService } from './services/main.service';
 @NgModule({
   declarations: [
     AppComponent,
+    DetailComponent,
     DividerComponent,
     HeaderBarComponent,
     IconButtonComponent,
     MainComponent,
+    TextButtonComponent,
     TileComponent
   ],
   imports: [

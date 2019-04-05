@@ -1,3 +1,7 @@
-@import 'global.scss';
-@import '~@angular/material/prebuilt-themes/indigo-pink';
+// Project
+@import 'global';
+@import 'variables';
+
+// Angular Material
+@import 'material-theme';
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");

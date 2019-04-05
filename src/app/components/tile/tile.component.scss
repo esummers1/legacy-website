@@ -1,5 +1,6 @@
 .tile__container {
-  max-width: 400px;
+  border-radius: 2%;
+  max-width: 350px;
   display: inline-block;
   margin: 15px 25px 15px 25px;
   text-align: left;
@@ -7,5 +8,5 @@
 
 .tile__image {
   object-fit: cover;
-  max-height: 280px;
+  max-height: 200px;
 }

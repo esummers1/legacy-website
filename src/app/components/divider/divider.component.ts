@@ -3,14 +3,20 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'es-divider',
   template: `
-    <h2 class="divider__heading">
+    <mat-toolbar color="accent">
       {{ text }}
-    </h2>
-    
-    <mat-divider></mat-divider>
+
+      <es-icon-button
+        *ngIf="repoLink"
+        class="actions"
+        [url]="repoLink"
+        icon="code">
+      </es-icon-button>
+    </mat-toolbar>
   `,
   styleUrls: ['./divider.component.scss']
 })
 export class DividerComponent {
+  @Input() repoLink: string;
   @Input() text: string;
 }

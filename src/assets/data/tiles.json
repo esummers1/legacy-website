@@ -1,7 +1,7 @@
 {
   "projectTiles": [
     {
-      "id": 1,
+      "id": "hashcode-2019",
       "title": "Google HashCode 2019",
       "subtitle": "Python",
       "blurb": "Further work on team Holy Guacamole's solution.",
@@ -9,33 +9,33 @@
       "repoLink": "https://github.com/esummers1/hashcode19"
     },
     {
-      "id": 2,
+      "id": "acs",
       "title": "Agricultural Capitalism Simulator",
       "subtitle": "Python",
-      "blurb": "A text-based farming business game, with AI mode.",
+      "blurb": "Text-based farming business game, with AI mode.",
       "image": "assets/images/acs.jpg",
       "repoLink": "https://github.com/esummers1/agricultural-capitalism-simulator-py"
     },
     {
-      "id": 3,
+      "id": "orbit-simulator",
       "title": "Orbit Simulator",
       "subtitle": "Java",
-      "blurb": "A two-dimensional physics sandbox.",
+      "blurb": "Two-dimensional physics sandbox.",
       "image": "assets/images/orbit-simulator.jpg",
       "repoLink": "https://github.com/esummers1/orbit-simulator"
     },
     {
-      "id": 4,
+      "id": "ping",
       "title": "Ping",
       "subtitle": "Java",
-      "blurb": "A spiritual successor to Pong.",
+      "blurb": "Spiritual successor to Pong.",
       "image": "assets/images/pong.png",
       "repoLink": "https://github.com/esummers1/ping"
     }
   ],
   "writingTiles": [
     {
-      "id": 101,
+      "id": "fitness-blog",
       "title": "Blog",
       "subtitle": "Fitness",
       "blurb": "Articles on lifting and nutrition.",
@@ -43,10 +43,10 @@
       "repoLink": ""
     },
     {
-      "id": 102,
+      "id": "lifters-manual",
       "title": "The Lifter's Manual",
       "subtitle": "Fitness",
-      "blurb": "A book on how to transform your physique.",
+      "blurb": "Book on how to transform your physique.",
       "image": "assets/images/tlm.jpg",
       "repoLink": ""
     }
