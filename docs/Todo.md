@@ -10,3 +10,6 @@
 ## Other
 - Look at finishing off projects to make them easy to build/run
 - Investigate weird detail.default business in MainService
+- Find out how to deploy
+  - Build
+  - FTP?

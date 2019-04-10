@@ -19,11 +19,13 @@ import { Tile } from 'src/app/models';
         </mat-card-subtitle>
       </mat-card-header>
 
-      <img
-        mat-card-image
-        class="tile__image"
-        [src]="tile.image"
-        alt="Preview of {{tile.title}}" />
+      <a [href]="getDetailLink()">
+        <img
+          mat-card-image
+          class="tile__image"
+          [src]="tile.image"
+          alt="Preview of {{tile.title}}" />
+      </a>
 
       <mat-card-content>
        {{ tile.blurb }}
