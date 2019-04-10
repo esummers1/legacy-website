@@ -9,7 +9,5 @@
 
 ## Other
 - Look at finishing off projects to make them easy to build/run
-- Investigate weird detail.default business in MainService
-- Find out how to deploy
-  - Build
-  - FTP?
+- Cards do not have consistent size on Firefox
+- Strange navigation problem - routing doesn't pick it up

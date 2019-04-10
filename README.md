@@ -7,3 +7,9 @@ Angular app for the frontend of eddie-summers.com.
 `npm install`
 
 `ng serve --open`
+
+## :house: Build
+
+`ng build --prod`
+
+Deploy `./dist/`.
