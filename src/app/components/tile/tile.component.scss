@@ -1,16 +1,15 @@
-.tile__container {
-  border-radius: 3%;
-  max-width: 350px;
-  display: inline-block;
-  margin: 15px 25px 15px 25px;
-  text-align: left;
-}
+.tile {
+  &__container {
+    border-radius: 3%;
+    max-width: 350px;
+    display: inline-block;
+    margin: 15px;
+    text-align: left;
+  }
 
-.tile__image {
-  object-fit: cover;
-  max-height: 200px;
-}
-
-mat-card-header {
-  margin-bottom: 15px;
+  &__image {
+    margin: 0px -16px 16px -16px;
+    height: 200px;
+    width: 360px;
+  }
 }

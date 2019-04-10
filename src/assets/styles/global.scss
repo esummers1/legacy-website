@@ -15,11 +15,11 @@ body {
 
 .container {
   background: $container-background-color;
-  width: 50%;
+  max-width: 920px;
   min-height: 500px;
-  min-width: 600px;
   margin: 0 auto;
   text-align: center;
+  display: block;
 }
 
 .body-image {

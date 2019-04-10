@@ -21,7 +21,6 @@ import { Tile } from 'src/app/models';
 
       <a [href]="getDetailLink()">
         <img
-          mat-card-image
           class="tile__image"
           [src]="tile.image"
           alt="Preview of {{tile.title}}" />
