@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core';
 
       <es-icon-button
         *ngIf="showBack"
-        url="/main"
+        url="/home"
         icon="arrow_back">
       </es-icon-button>
 

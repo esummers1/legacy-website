@@ -7,17 +7,22 @@ import { DetailComponent, MainComponent } from 'src/app/pages';
 
 const ROUTES: Routes = [
   {
-    path: '',
-    redirectTo: '/main',
-    pathMatch: 'full'
-  },
-  {
-    path: 'main',
+    path: 'home',
     component: MainComponent
   },
   {
     path: 'detail/:id',
     component: DetailComponent
+  },
+  {
+    path: '',
+    redirectTo: '/home',
+    pathMatch: 'full'
+  },
+  {
+    path: '**',
+    redirectTo: '/home',
+    pathMatch: 'full'
   }
 ];
 

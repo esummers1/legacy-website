@@ -12,4 +12,6 @@ Angular app for the frontend of eddie-summers.com.
 
 `ng build --prod`
 
-Deploy `./dist/`.
+Deploy `./dist/` to your remote root.
+
+**First time only**: Upload `./src/.htaccess` to your remote at `<root>/dist/website/` to enable routing.
