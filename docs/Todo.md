@@ -3,6 +3,7 @@
 ## :house: Building
 - Screencap demos of projects for pages?
   - Could either embed a YouTube video or a gif
+- Add About page
 
 ## Other
 - Look at finishing off projects to make them easy to build/run
