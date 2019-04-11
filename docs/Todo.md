@@ -4,6 +4,7 @@
 - Screencap demos of projects for pages?
   - Could either embed a YouTube video or a gif
 - Add About page
+- Update favicon
 
 ## Other
 - Look at finishing off projects to make them easy to build/run
