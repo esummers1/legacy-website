@@ -2,37 +2,43 @@
   "hashcode-2019": {
     "splashImage": "assets/images/holy-guac.jpg",
     "title": "Google HashCode 2019",
-    "content": "Further work on team Holy Guacamole's solution.",
-    "repoLink": "https://github.com/esummers1/hashcode19"
+    "content": "<p>Google HashCode is an annual world-wide team programming competition. I entered it with three friends and colleagues as team Holy Guacamole.</p><p>The problem in 2019 was to arrange photo objects into slideshows which were most 'interesting', according to a certain algorithm. Our solution started at the basic level - composing slideshows of photos in the order they were recevied - and advanced to attempting to group photos with popular 'tags' nearer each other, as such groupings were worth more points.</p><p>We wrote our solution in Typescript, which was compiled and run on Node. Afterwards, I ported our application to Python and continued to work on it. Since Google provide several input files that have different characteristics, one strategy does not fit all - I designed the Python version to have a bank of strategies with which to group each set of photos, and to choose the most successful strategy for each input file to generate the output solution.</p>",
+    "repoLink": "https://github.com/esummers1/hashcode19",
+    "otherLink": ""
   },
   "acs": {
     "splashImage": "assets/images/acs.jpg",
     "title": "Agricultural Capitalism Simulator",
-    "content": "A text-based farming business game, with AI mode.",
-    "repoLink": "https://github.com/esummers1/agricultural-capitalism-simulator-py"
+    "content": "<p>Agricultural Capitalism Simulator (ACS) is a tongue-in-cheek command-line farming business simulator. The player is given some money and a field, and told to make the greatest amount of profit possible in the allotted number of years. Different crops have different ideal weather conditions, and different fields (which the player can purchase) have different qualities. The weather is generated each game year, producing a certain yield in each field according to its planted crop's characteristics.</p><p>There is also an AI mode, in which a basic evolutionary algorithm with a small set of weightings (probability to plant each crop, and aggressiveness when purchasing new land) optimizes those weightings for high scores. The best strategies from each checkpoint generation will be printed to the player at the terminal.</p><p>ACS was originally written in Java; I later ported it to Python, to practise the language.</p>",
+    "repoLink": "https://github.com/esummers1/agricultural-capitalism-simulator-py",
+    "otherLink": ""
   },
   "orbit-simulator": {
     "splashImage": "assets/images/orbit-simulator.jpg",
     "title": "Orbit Simulator",
-    "content": "A two-dimensional physics sandbox.",
-    "repoLink": "https://github.com/esummers1/orbit-simulator"
+    "content": "<p>Orbit Simulator is a two-dimensional physics sandbox. It uses a high physics framerate (decoupled from the slower rendering framerate) to compute the orbits of moon, planets and stars using real-world figures at high time accelerations.</p><p>The player can focus the camera on different objects in the simulation, adjust the display scale and time acceleration factor, and 'fire' new objects into the simulation. These new bodies will be created using the average path and velocity of the mouse-drag, meaning they appear seamlessly and intuitively. The other objects in the simulation will feel the gravitational effects of the new object immediately.</p><p>Objects that collide merge into a new object with the combined mass and volume of its parents; its colour will also be an average.</p><p>Orbit Simulator is written in Java and uses Swing for the UI. It can handle highly-accelerated simulation of dozens of bodies without slowdown, though dense objects such as black holes can cause weird behaviour when other objects pass very close.<p>",
+    "repoLink": "https://github.com/esummers1/orbit-simulator",
+    "otherLink": ""
   },
   "ping": {
     "splashImage": "assets/images/pong.png",
     "title": "Ping",
-    "content": "A spiritual successor to Pong.",
-    "repoLink": "https://github.com/esummers1/ping"
+    "content": "<p>Ping is an homage to the classic arcade game Pong, with some liberties taken on physics. It appears similar to the original, with two white rectangles for paddles and a white square for a ball.</p><p>The player controls the left paddle, and a rudimentary AI controls the right paddle. The paddle will accelerate and decelerate with a feeling of some weight, rather than just moving up and down linearly. The ball gains speed on each paddle impact, forcing one side to eventually make a mistake. Collisions are implemented by hand.</p><p>Ping is written in Java and uses Swing for the UI.</p>",
+    "repoLink": "https://github.com/esummers1/ping",
+    "otherLink": ""
   },
   "fitness-blog": {
     "splashImage": "assets/images/fitness-blog.jpg",
     "title": "Blog",
-    "content": "Articles on lifting and nutrition.",
-    "repoLink": ""
+    "content": "<p>Before becoming a software engineer I was a personal trainer - in fact my undergraduate degree is in Sport & Exercise Science. I kept up a blog with articles about lifting weights, organizing training programmes and nutrition. This stopped when I had the more ambitious idea to write my book, The Lifter's Manual, to unify the thoughts I was putting into blog posts.</p>",
+    "repoLink": "",
+    "otherLink": "https://blog.eddie-summers.com"
   },
   "lifters-manual": {
     "splashImage": "assets/images/tlm.jpg",
     "title": "The Lifter's Manual",
-    "content": "A book on how to transform your physique.",
-    "repoLink": ""
+    "content": "<p>The Lifter's Manual is a Kindle book I wrote to summarize everything I had learned about lifting weights from my degree, years of coaching clients, and (at the time) ten years of training myself. It is essentially what I wish I could give my 15 year old self.</p><p>From the Amazon blurb:</p><br /><p><b>Do you want to build muscle, get stronger and strip away fat?</b></p><p>There is more information available on lifting weights than ever before. This is good, but not all this advice is helpful. You might feel you’re being told (and sold) conflicting things, or that there’s too much to learn, or you might just be unhappy with your results.</p><p>This book is here to fix these problems. It’s a practical manual for lifters; it cuts through the bad advice and gives you the foundation of understanding you need, with zero fluff. Reading it will give you power over your body and fitness: to change them the way you want.</p><p>What you’ll find in this book:<ul><li>Logical step-by-step instructions on performing the main movements safely and effectively – whatever your current skill level</li><li>Detailed troubleshooting and time-tested regressions for when technique doesn’t go to plan</li><li>Simple, practical guidance for constructing your own progressive training programmes</li><li>How to decide what to eat and how much of it, plus which supplements are worth your money</li><li>Strategies for maximizing your recovery from training, to ensure you get the greatest result from the effort you put in</li><li>A roadmap for evolving your training as you get fitter and stronger</li></ul></p><p>It's time to build the body you've always wanted.</p>",
+    "repoLink": "",
+    "otherLink": "https://www.amazon.co.uk/Lifters-Manual-Build-Always-Wanted-ebook/dp/B01N9XKVVB/ref=sr_1_1?keywords=the+lifters+manual&qid=1555010496&s=gateway&sr=8-1"
   }
 }

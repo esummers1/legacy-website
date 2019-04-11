@@ -1,15 +1,26 @@
 .tile {
   &__container {
-    border-radius: 3%;
-    max-width: 350px;
+    border-radius: 4%;
+    max-width: 268px;
     display: inline-block;
     margin: 15px;
     text-align: left;
   }
 
   &__image {
-    margin: 0px -16px 16px -16px;
-    height: 200px;
-    width: 360px;
+    margin: 0px -16px 6px -16px;
+    max-width: 300px;
   }
+}
+
+.mat-card-title {
+  font-size: 1.1em;
+}
+
+.mat-card-actions {
+  padding: 0px;
+}
+
+.mat-card-subtitle {
+  margin-bottom: 10px;
 }

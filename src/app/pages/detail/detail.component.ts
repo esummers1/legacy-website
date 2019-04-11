@@ -19,15 +19,18 @@ import { MainService } from 'src/app/services';
 
       <es-divider
         [repoLink]="data.repoLink"
+        [otherLink]="data.otherLink"
         [text]="data.title">
       </es-divider>
 
       <body class="detail-container">
 
-        <img [src]="data.splashImage" class="body-image" />
+        <a [href]="getMainLink()">
+          <img [src]="data.splashImage" class="body-image" />
+        </a>
 
         <section class="detail-body">
-          {{ data.content }}
+          <div [innerHtml]="data.content"></div>
         </section>
 
       </body>
@@ -54,6 +57,13 @@ export class DetailComponent implements OnInit {
     } else {
       this.data = detailData;
     }
+  }
+
+  /**
+   * Give the link to the repo, if this exists; if not, give the "other" link.
+   */
+  getMainLink(): string {
+    return this.data.repoLink ? this.data.repoLink : this.data.otherLink;
   }
 
 }

@@ -26,10 +26,6 @@ import { Tile } from 'src/app/models';
           alt="Preview of {{tile.title}}" />
       </a>
 
-      <mat-card-content>
-       {{ tile.blurb }}
-      </mat-card-content>
-
       <mat-card-actions>
         <es-text-button
           text="MORE"
@@ -40,6 +36,12 @@ import { Tile } from 'src/app/models';
           *ngIf="tile.repoLink"
           text="SOURCE"
           [url]="tile.repoLink">
+        </es-text-button>
+
+        <es-text-button
+          *ngIf="tile.otherLink"
+          text="LINK"
+          [url]="tile.otherLink">
         </es-text-button>
       </mat-card-actions>
 

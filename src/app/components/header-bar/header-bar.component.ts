@@ -26,7 +26,7 @@ import { Component, Input } from '@angular/core';
 
         <es-icon-button
           url="mailto:eddie.summers1@gmail.com"
-          icon="question_answer">
+          icon="email">
         </es-icon-button>
       </span>
     </mat-toolbar>

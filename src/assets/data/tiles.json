@@ -4,33 +4,33 @@
       "id": "hashcode-2019",
       "title": "Google HashCode 2019",
       "subtitle": "Python",
-      "blurb": "Further work on team Holy Guacamole's solution.",
       "image": "assets/images/tiles/holy-guac.png",
-      "repoLink": "https://github.com/esummers1/hashcode19"
+      "repoLink": "https://github.com/esummers1/hashcode19",
+      "otherLink": ""
     },
     {
       "id": "acs",
       "title": "Agricultural Capitalism Simulator",
       "subtitle": "Python",
-      "blurb": "Text-based farming business game, with AI mode.",
       "image": "assets/images/tiles/acs.png",
-      "repoLink": "https://github.com/esummers1/agricultural-capitalism-simulator-py"
+      "repoLink": "https://github.com/esummers1/agricultural-capitalism-simulator-py",
+      "otherLink": ""
     },
     {
       "id": "orbit-simulator",
       "title": "Orbit Simulator",
       "subtitle": "Java",
-      "blurb": "Two-dimensional physics sandbox.",
       "image": "assets/images/tiles/orbit-simulator.png",
-      "repoLink": "https://github.com/esummers1/orbit-simulator"
+      "repoLink": "https://github.com/esummers1/orbit-simulator",
+      "otherLink": ""
     },
     {
       "id": "ping",
       "title": "Ping",
       "subtitle": "Java",
-      "blurb": "Spiritual successor to Pong.",
       "image": "assets/images/tiles/ping.png",
-      "repoLink": "https://github.com/esummers1/ping"
+      "repoLink": "https://github.com/esummers1/ping",
+      "otherLink": ""
     }
   ],
   "writingTiles": [
@@ -38,17 +38,17 @@
       "id": "fitness-blog",
       "title": "Blog",
       "subtitle": "Fitness",
-      "blurb": "Articles on lifting and nutrition.",
       "image": "assets/images/tiles/fitness-blog.png",
-      "repoLink": ""
+      "repoLink": "",
+      "otherLink": "https://blog.eddie-summers.com"
     },
     {
       "id": "lifters-manual",
       "title": "The Lifter's Manual",
       "subtitle": "Fitness",
-      "blurb": "Book on how to transform your physique.",
       "image": "assets/images/tiles/tlm.png",
-      "repoLink": ""
+      "repoLink": "",
+      "otherLink": "https://www.amazon.co.uk/Lifters-Manual-Build-Always-Wanted-ebook/dp/B01N9XKVVB/ref=sr_1_1?keywords=the+lifters+manual&qid=1555010496&s=gateway&sr=8-1"
     }
   ]
 }
