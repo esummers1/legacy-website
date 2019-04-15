@@ -3,6 +3,9 @@ $container-background-color: #f2f2f2;
 $page-background-color: #bdbdbd;
 
 // Fonts
-$font-family: 'Roboto';
+$font-family: 'Roboto', 'Helvetica', sans-serif;
 $font-default-size: 0.9em;
 $font-body-size: 1.1em;
+
+// Dimensions
+$container-width: 820px;
