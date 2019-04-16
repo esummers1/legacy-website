@@ -2,18 +2,20 @@
 
 Angular app for [eddie-summers.com](https://eddie-summers.com).
 
-## :running: Run Locally
+## :clipboard: Requirements
+
+Install [Node.js](https://nodejs.org/en/), then from project directory:
 
 `npm install`
+
+## :running: Run Locally
 
 `ng serve --open`
 
 ## :house: Build
 
-`npm install`
-
 `ng build --prod`
 
 Deploy `./dist/` to your remote root.
 
-**First time only**: Upload `./src/.htaccess` to your remote at `<root>/dist/website/` to enable routing.
+Upload `./src/.htaccess` to your remote at `<root>/dist/website/` to enable routing.
