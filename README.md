@@ -1,6 +1,6 @@
 # Website Application
 
-Angular app for the frontend of [eddie-summers.com](https://eddie-summers.com).
+Angular app for [eddie-summers.com](https://eddie-summers.com).
 
 ## :running: Run Locally
 
