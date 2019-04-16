@@ -10,6 +10,8 @@ Angular app for the frontend of eddie-summers.com.
 
 ## :house: Build
 
+`npm install`
+
 `ng build --prod`
 
 Deploy `./dist/` to your remote root.
