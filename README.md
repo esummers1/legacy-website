@@ -2,7 +2,7 @@
 
 Angular app for [eddie-summers.com](https://eddie-summers.com).
 
-## :checklist: Requirements
+## :clipboard: Requirements
 
 Install [Node.js](https://nodejs.org/en/), then from project directory:
 
