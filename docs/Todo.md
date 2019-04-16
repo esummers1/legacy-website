@@ -11,3 +11,4 @@
 - Make a script that builds and then copies `.htaccess` in
 - Fix Wordpress blog somehow (may have to uninstall and rebuild from backups)
   - Probably want a better solution, to be host-independent
+- Write unit tests

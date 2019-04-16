@@ -6,6 +6,13 @@
     "repoLink": "https://github.com/esummers1/hashcode19",
     "otherLink": ""
   },
+  "website": {
+    "splashImage": "assets/images/angular.png",
+    "title": "This Website",
+    "content": "<p>This website is written in Typescript using Angular 7, without a true backend - the server delegates routing to the client, and the site's content is served directly from JSON files in the project directory. The UI is largely composed using Angular Material, and is optimized for viewing on mobile.</p><p>It is specifically designed to make it simple to add more pages; for a page about a project following the existing format, all that's needed is to add data to the JSON data files.</p>",
+    "repoLink": "https://github.com/esummers1/website",
+    "otherLink": ""
+  },
   "acs": {
     "splashImage": "assets/images/acs.jpg",
     "title": "Agricultural Capitalism Simulator",

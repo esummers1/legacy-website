@@ -9,6 +9,14 @@
       "otherLink": ""
     },
     {
+      "id": "website",
+      "title": "This Website",
+      "subtitle": "Typescript/Angular",
+      "image": "assets/images/tiles/angular.png",
+      "repoLink": "https://github.com/esummers1/website",
+      "otherLink": ""
+    },
+    {
       "id": "acs",
       "title": "Agricultural Capitalism Simulator",
       "subtitle": "Python",
