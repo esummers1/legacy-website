@@ -43,12 +43,12 @@
   ],
   "writingTiles": [
     {
-      "id": "fitness-blog",
+      "id": "lifting-blog",
       "title": "Blog",
-      "subtitle": "Fitness",
+      "subtitle": "Lifting",
       "image": "assets/images/tiles/fitness-blog.png",
       "repoLink": "",
-      "otherLink": "https://blog.eddie-summers.com"
+      "otherLink": "https://lifting-blog.eddie-summers.com"
     },
     {
       "id": "lifters-manual",

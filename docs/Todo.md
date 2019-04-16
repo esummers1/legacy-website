@@ -9,6 +9,5 @@
 ## Other
 - Look at finishing off projects to make them easy to build/run
 - Make a script that builds and then copies `.htaccess` in
-- Fix Wordpress blog somehow (may have to uninstall and rebuild from backups)
-  - Probably want a better solution, to be host-independent
 - Write unit tests
+- Add Google Analytics tracking
