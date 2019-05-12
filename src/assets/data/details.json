@@ -37,7 +37,7 @@
   "programming-blog": {
     "splashImage": "assets/images/code.jpg",
     "title": "Blog",
-    "content": "",
+    "content": "<p>I started running a blog on programming and software engineering when I had the chance to teach someone to program, and thought it would be a good idea to write the lessons up as a series of articles. The blog also contains occasional articles about topics I find interesting.</p>",
     "repoLink": "https://github.com/esummers1/esummers1.github.io",
     "otherLink": "https://programming.eddie-summers.com"
   },
