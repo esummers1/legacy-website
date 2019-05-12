@@ -34,19 +34,19 @@
     "repoLink": "https://github.com/esummers1/ping",
     "otherLink": ""
   },
-  "lifting-blog": {
-    "splashImage": "assets/images/fitness-blog.jpg",
-    "title": "Blog",
-    "content": "<p>Before becoming a software engineer I was a personal trainer - in fact my undergraduate degree is in Sport & Exercise Science. I kept up a blog with articles about lifting weights, organizing training programmes and nutrition. This stopped when I had the more ambitious idea to write my book, The Lifter's Manual, to unify the thoughts I was putting into blog posts.</p>",
-    "repoLink": "",
-    "otherLink": "https://lifting-blog.eddie-summers.com"
-  },
   "programming-blog": {
     "splashImage": "assets/images/code.jpg",
     "title": "Blog",
     "content": "",
     "repoLink": "https://github.com/esummers1/esummers1.github.io",
     "otherLink": "https://programming.eddie-summers.com"
+  },
+  "lifting-blog": {
+    "splashImage": "assets/images/fitness-blog.jpg",
+    "title": "Blog",
+    "content": "<p>Before becoming a software engineer I was a personal trainer - in fact my undergraduate degree is in Sport & Exercise Science. I kept up a blog with articles about lifting weights, organizing training programmes and nutrition. This stopped when I had the more ambitious idea to write my book, The Lifter's Manual, to unify the thoughts I was putting into blog posts.</p>",
+    "repoLink": "",
+    "otherLink": "https://lifting-blog.eddie-summers.com"
   },
   "lifters-manual": {
     "splashImage": "assets/images/tlm.jpg",
