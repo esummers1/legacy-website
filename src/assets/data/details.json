@@ -41,6 +41,13 @@
     "repoLink": "",
     "otherLink": "https://lifting-blog.eddie-summers.com"
   },
+  "programming-blog": {
+    "splashImage": "assets/images/code.jpg",
+    "title": "Blog",
+    "content": "",
+    "repoLink": "https://github.com/esummers1/esummers1.github.io",
+    "otherLink": "https://programming.eddie-summers.com"
+  },
   "lifters-manual": {
     "splashImage": "assets/images/tlm.jpg",
     "title": "The Lifter's Manual",

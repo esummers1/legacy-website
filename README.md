@@ -8,6 +8,8 @@ Install [Node.js](https://nodejs.org/en/), then from project directory:
 
 `npm install`
 
+`npm install @angular/cli`
+
 ## :running: Run Locally
 
 `ng serve --open`

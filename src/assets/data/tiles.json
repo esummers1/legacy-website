@@ -51,6 +51,14 @@
       "otherLink": "https://lifting-blog.eddie-summers.com"
     },
     {
+      "id": "programming-blog",
+      "title": "Blog",
+      "subtitle": "Programming",
+      "image": "assets/images/tiles/code.png",
+      "repoLink": "https://github.com/esummers1/esummers1.github.io",
+      "otherLink": "https://programming.eddie-summers.com"
+    },
+    {
       "id": "lifters-manual",
       "title": "The Lifter's Manual",
       "subtitle": "Fitness",
