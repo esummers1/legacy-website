@@ -5,6 +5,7 @@
   - Could either embed a YouTube video or a gif
 - Add About page
 - Update favicon
+- Add some blurb to lifting blog detail content about how it's made
 
 ## Other
 - Look at finishing off projects to make them easy to build/run
