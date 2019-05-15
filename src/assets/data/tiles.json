@@ -47,7 +47,7 @@
       "title": "Blog",
       "subtitle": "Programming",
       "image": "assets/images/tiles/code.png",
-      "repoLink": "https://github.com/esummers1/esummers1.github.io",
+      "repoLink": "https://github.com/esummers1/programming-blog",
       "otherLink": "https://programming.eddie-summers.com"
     },
     {
@@ -55,8 +55,8 @@
       "title": "Blog",
       "subtitle": "Lifting",
       "image": "assets/images/tiles/fitness-blog.png",
-      "repoLink": "",
-      "otherLink": "https://lifting-blog.eddie-summers.com"
+      "repoLink": "https://github.com/esummers1/lifting-blog",
+      "otherLink": "https://lifting.eddie-summers.com"
     },
     {
       "id": "lifters-manual",

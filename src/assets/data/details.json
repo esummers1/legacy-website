@@ -23,7 +23,7 @@
   "orbit-simulator": {
     "splashImage": "assets/images/orbit-simulator.jpg",
     "title": "Orbit Simulator",
-    "content": "<p>Orbit Simulator is a two-dimensional physics sandbox. It uses a high physics framerate (decoupled from the slower rendering framerate) to compute the orbits of moon, planets and stars using real-world figures at high time accelerations.</p><p>The player can focus the camera on different objects in the simulation, adjust the display scale and time acceleration factor, and 'fire' new objects into the simulation. These new bodies will be created using the average path and velocity of the mouse-drag, meaning they appear seamlessly and intuitively. The other objects in the simulation will feel the gravitational effects of the new object immediately.</p><p>Objects that collide merge into a new object with the combined mass and volume of its parents; its colour will also be an average.</p><p>Orbit Simulator is written in Java and uses Swing for the UI. It can handle highly-accelerated simulation of dozens of bodies without slowdown, though dense objects such as black holes can cause weird behaviour when other objects pass very close.<p>",
+    "content": "<p>Orbit Simulator is a two-dimensional physics sandbox. It uses a high physics framerate (decoupled from the slower rendering framerate) to compute the orbits of moons, planets and stars using real-world figures at high time accelerations.</p><p>The player can focus the camera on different objects in the simulation, adjust the display scale and time acceleration factor, and 'fire' new objects into the simulation. These new bodies will be created using the average path and velocity of the mouse-drag, meaning they appear seamlessly and intuitively. The other objects in the simulation will feel the gravitational effects of the new object immediately.</p><p>Objects that collide merge into a new object with the combined mass and volume of its parents; its colour will also be an average.</p><p>Orbit Simulator is written in Java and uses Swing for the UI. It can handle highly-accelerated simulation of dozens of bodies without slowdown, though dense objects such as black holes can cause weird behaviour when other objects pass very close.<p>",
     "repoLink": "https://github.com/esummers1/orbit-simulator",
     "otherLink": ""
   },
@@ -37,16 +37,16 @@
   "programming-blog": {
     "splashImage": "assets/images/code.jpg",
     "title": "Blog",
-    "content": "<p>I started running a blog on programming and software engineering when I had the chance to teach someone to program, and thought it would be a good idea to write the lessons up as a series of articles. The blog also contains occasional articles about topics I find interesting.</p>",
-    "repoLink": "https://github.com/esummers1/esummers1.github.io",
+    "content": "<p>I started running a blog on programming and software engineering when I had the chance to teach someone to program, and thought it would be a good idea to write the lessons up as a series of articles. The blog also contains occasional articles about topics I find interesting. It is made using Jekyll (specifically, with the Voyager theme) and runs on GitHub Pages.</p>",
+    "repoLink": "https://github.com/esummers1/programming-blog",
     "otherLink": "https://programming.eddie-summers.com"
   },
   "lifting-blog": {
     "splashImage": "assets/images/fitness-blog.jpg",
     "title": "Blog",
     "content": "<p>Before becoming a software engineer I was a personal trainer - in fact my undergraduate degree is in Sport & Exercise Science. I kept up a blog with articles about lifting weights, organizing training programmes and nutrition. This stopped when I had the more ambitious idea to write my book, The Lifter's Manual, to unify the thoughts I was putting into blog posts.</p>",
-    "repoLink": "",
-    "otherLink": "https://lifting-blog.eddie-summers.com"
+    "repoLink": "https://github.com/esummers1/lifting-blog",
+    "otherLink": "https://lifting.eddie-summers.com"
   },
   "lifters-manual": {
     "splashImage": "assets/images/tlm.jpg",
