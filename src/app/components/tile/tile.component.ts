@@ -13,7 +13,7 @@ import { Tile } from 'src/app/models';
         <mat-card-title>
           {{ tile.title }}
         </mat-card-title>
-        
+
         <mat-card-subtitle>
           {{ tile.subtitle }}
         </mat-card-subtitle>
