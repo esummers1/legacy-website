@@ -4,7 +4,7 @@
   "title": "Hovership",
   "content": "<p>Hovership is a simple 3D platforming game with a low-poly art style. I developed it with a friend over the course of a couple of years, meeting once every week or two. We created the assets from scratch using Blender, and implemented custom player and camera physics.</p><p>The game has a single level, in which the player must dodge deadly turret fire to collect enough Power Shards to gain the power of flight and be able to find the key which wins the game.</p>",
   "repoLink": "https://github.com/Danjb1/hovership",
-  "otherLink": ""
+  "otherLink": "https://www.youtube.com/watch?v=4cLMlKfPOBY"
   },
   "hashcode-2019": {
     "splashImage": "assets/images/holy-guac.jpg",

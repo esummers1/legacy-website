@@ -13,6 +13,3 @@
 - Make a script that builds and then copies `.htaccess` in
 - Write unit tests
 - Add Google Analytics tracking
-- Make container min-width wider
-- Fix wrapping on ACS card
-- Deploy new changes

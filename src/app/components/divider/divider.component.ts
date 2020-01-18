@@ -6,19 +6,21 @@ import { Component, Input } from '@angular/core';
     <mat-toolbar color="accent">
       {{ text }}
 
-      <es-icon-button
-        *ngIf="repoLink"
-        class="actions"
-        [url]="repoLink"
-        icon="code">
-      </es-icon-button>
+      <div class="actions">
+        <es-icon-button
+          *ngIf="repoLink"
+          class="actions"
+          [url]="repoLink"
+          icon="code">
+        </es-icon-button>
 
-      <es-icon-button
-        *ngIf="otherLink"
-        class="actions"
-        [url]="otherLink"
-        icon="public">
-      </es-icon-button>
+        <es-icon-button
+          *ngIf="otherLink"
+          class="actions"
+          [url]="otherLink"
+          icon="public">
+        </es-icon-button>
+      </div>
     </mat-toolbar>
   `,
   styleUrls: ['./divider.component.scss']
