@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
 import 'hammerjs';
 
 @Component({
-  selector: 'app-root',
+  selector: 'es-root',
   template: `
     <router-outlet></router-outlet>
   `

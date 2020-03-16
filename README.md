@@ -6,17 +6,28 @@ Angular app for [eddie-summers.com](https://eddie-summers.com).
 
 Install [Node.js](https://nodejs.org/en/), then from project directory:
 
-`npm install`
+```bash
+npm install
+npm install @angular/cli
+```
 
-`npm install @angular/cli`
+## :mag: Lint
+
+```bash
+npm run lint
+```
 
 ## :running: Run Locally
 
-`ng serve --open`
+```bash
+npm start
+```
 
 ## :house: Build
 
-`ng build --prod`
+```bash
+npm run build
+```
 
 Deploy `./dist/` to your remote root.
 

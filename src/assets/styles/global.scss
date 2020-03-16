@@ -8,6 +8,11 @@ body {
   margin: 0px;
 }
 
+a {
+  color: $link-color;
+  font-weight: bold;
+}
+
 .actions {
   flex: 1 1 auto;
   text-align: right;

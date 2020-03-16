@@ -6,17 +6,17 @@
   "repoLink": "https://github.com/Danjb1/hovership",
   "otherLink": "https://www.youtube.com/watch?v=4cLMlKfPOBY"
   },
-  "hashcode-2019": {
+  "hashcode": {
     "splashImage": "assets/images/holy-guac.jpg",
-    "title": "Google HashCode 2019",
-    "content": "<p>Google HashCode is an annual world-wide team programming competition. I entered it with three friends and colleagues as team Holy Guacamole.</p><p>The problem in 2019 was to arrange photo objects into slideshows which were most 'interesting', according to a certain algorithm. Our solution started at the basic level - composing slideshows of photos in the order they were recevied - and advanced to attempting to group photos with popular 'tags' nearer each other, as such groupings were worth more points.</p><p>We wrote our solution in Typescript, which was compiled and run on Node. Afterwards, I ported our application to Python and continued to work on it. Since Google provide several input files that have different characteristics, one strategy does not fit all - I designed the Python version to have a bank of strategies with which to group each set of photos, and to choose the most successful strategy for each input file to generate the output solution.</p>",
-    "repoLink": "https://github.com/esummers1/hashcode19",
+    "title": "Google HashCode",
+    "content": "<p>Google HashCode is an annual world-wide team programming competition. I entered it with three friends and colleagues as team Holy Guacamole in 2019 and 2020.</p><p>The problem in 2019 was to arrange photo objects into slideshows which were most 'interesting', according to a certain algorithm. Our solution started at the basic level - composing slideshows of photos in the order they were recevied - and advanced to attempting to group photos with popular 'tags' nearer each other, as such groupings were worth more points.</p><p>We wrote our <a href=\"https://github.com/Danjb1/google-hashcode-2019\">solution in Typescript</a>, which was compiled and run on Node. Afterwards, I <a href=\"https://github.com/esummers1/hashcode19\">ported our application to Python</a> and continued to work on it. Since Google provide several input files that have different characteristics, one strategy does not fit all - I designed the Python version to have a bank of strategies with which to group each set of photos, and to choose the most successful strategy for each input file to generate the output solution.</p><p>In 2020, the problem was harder, and revolved around scheduling the scanning of physical books in libraries with different collections. Again, we wrote our <a href=\"https://github.com/esummers1/hashcode-2020\">solution(s) in TypeScript</a> and ran them using Node. While we intended to apply the strategy-selection logic throughout, the problem this year was not easy to model, and we did not have enough time to build a local scoring engine.</p><p>In both cases, we finished in the top 30% of teams worldwide.</p>",
+    "repoLink": "",
     "otherLink": ""
   },
   "website": {
     "splashImage": "assets/images/angular.png",
     "title": "This Website",
-    "content": "<p>This website is written in Typescript using Angular 7, without a true backend - the server delegates routing to the client, and the site's content is served directly from JSON files in the project directory. The UI is largely composed using Angular Material, and is optimized for viewing on mobile.</p><p>It is specifically designed to make it simple to add more pages; for a page about a project following the existing format, all that's needed is to add data to the JSON data files.</p>",
+    "content": "<p>This website is written in Typescript using Angular, without a true backend - the server delegates routing to the client, and the site's content is populated from static JSON assets. The UI is largely composed using Angular Material, and is optimized for viewing on mobile.</p><p>It is specifically designed to make it simple to add more pages; for a page about a project following the existing format, all that's needed is to add data to the JSON data files.</p>",
     "repoLink": "https://github.com/esummers1/website",
     "otherLink": ""
   },
@@ -37,21 +37,21 @@
   "ping": {
     "splashImage": "assets/images/pong.png",
     "title": "Ping",
-    "content": "<p>Ping is an homage to the classic arcade game Pong, with some liberties taken on physics. It appears similar to the original, with two white rectangles for paddles and a white square for a ball.</p><p>The player controls the left paddle, and a rudimentary AI controls the right paddle. The paddle will accelerate and decelerate with a feeling of some weight, rather than just moving up and down linearly. The ball gains speed on each paddle impact, forcing one side to eventually make a mistake. Collisions are implemented by hand.</p><p>Ping is written in Java and uses Swing for the UI.</p>",
+    "content": "<p>Ping is an homage to the classic arcade game Pong, with some liberties taken on physics. It appears similar to the original, with two white rectangles for paddles and a white square for a ball.</p><p>The player controls the left paddle, and a rudimentary AI controls the right paddle. The paddle will accelerate and decelerate with a feeling of some weight, rather than just moving up and down linearly. The ball gains speed on each paddle impact, forcing one side to eventually make a mistake. Collisions are implemented by hand, and work most of the time.</p><p>Ping is written in Java and uses Swing for the UI.</p>",
     "repoLink": "https://github.com/esummers1/ping",
     "otherLink": ""
   },
   "programming-blog": {
     "splashImage": "assets/images/code.jpg",
     "title": "Blog",
-    "content": "<p>I started running a blog on programming and software engineering when I had the chance to teach someone to program, and thought it would be a good idea to write the lessons up as a series of articles. The blog also contains occasional articles about topics I find interesting. It is made using Jekyll (specifically, with the Voyager theme) and runs on GitHub Pages.</p>",
+    "content": "<p>I started running a blog on programming and software engineering when I had the chance to teach someone to program, and thought it would be a good idea to write the lessons up as a series of articles. The intent is to also write other articles about topics I find interesting. It is made using the Jekyll blog tool - specifically, with the Voyager theme. This explains why it looks much slicker than the main site.</p>",
     "repoLink": "https://github.com/esummers1/programming-blog",
     "otherLink": "https://programming.eddie-summers.com"
   },
   "lifting-blog": {
     "splashImage": "assets/images/fitness-blog.jpg",
     "title": "Blog",
-    "content": "<p>Before becoming a software engineer I was a personal trainer - in fact my undergraduate degree is in Sport & Exercise Science. I kept up a blog with articles about lifting weights, organizing training programmes and nutrition. This stopped when I had the more ambitious idea to write my book, The Lifter's Manual, to unify the thoughts I was putting into blog posts.</p>",
+    "content": "<p>Before becoming a software engineer I was a personal trainer - in fact my undergraduate degree is in Sport & Exercise Science. I kept up a blog with articles about lifting weights, organizing training programmes and nutrition. This stopped when I had the more ambitious idea to write my book, The Lifter's Manual, to unify the thoughts I was putting into blog posts.</p><p>Like the programming/software blog, it is made using the Voyager theme for Jekyll.</p>",
     "repoLink": "https://github.com/esummers1/lifting-blog",
     "otherLink": "https://lifting.eddie-summers.com"
   },

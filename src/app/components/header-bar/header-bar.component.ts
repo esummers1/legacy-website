@@ -33,5 +33,5 @@ import { Component, Input } from '@angular/core';
   `
 })
 export class HeaderBarComponent {
-  @Input() showBack: boolean = true;
+  @Input() showBack = true;
 }

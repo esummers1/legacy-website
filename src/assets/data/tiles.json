@@ -3,23 +3,31 @@
     {
       "id": "hovership",
       "title": "Hovership",
-      "subtitle": "Unity/C#",
+      "subtitle": "Unity, C#",
       "image": "assets/images/tiles/hovership.png",
       "repoLink": "https://github.com/Danjb1/hovership",
       "otherLink": ""
     },
     {
-      "id": "hashcode-2019",
-      "title": "Google HashCode 2019",
-      "subtitle": "Python",
+      "id": "orbit-simulator",
+      "title": "Orbit Simulator",
+      "subtitle": "Java",
+      "image": "assets/images/tiles/orbit-simulator.png",
+      "repoLink": "https://github.com/esummers1/orbit-simulator",
+      "otherLink": ""
+    },
+    {
+      "id": "hashcode",
+      "title": "Google HashCode",
+      "subtitle": "TypeScript, Python",
       "image": "assets/images/tiles/holy-guac.png",
-      "repoLink": "https://github.com/esummers1/hashcode19",
+      "repoLink": "",
       "otherLink": ""
     },
     {
       "id": "website",
       "title": "This Website",
-      "subtitle": "Typescript/Angular",
+      "subtitle": "Typescript, Angular",
       "image": "assets/images/tiles/angular.png",
       "repoLink": "https://github.com/esummers1/website",
       "otherLink": ""
@@ -30,14 +38,6 @@
       "subtitle": "Python",
       "image": "assets/images/tiles/acs.png",
       "repoLink": "https://github.com/esummers1/agricultural-capitalism-simulator-py",
-      "otherLink": ""
-    },
-    {
-      "id": "orbit-simulator",
-      "title": "Orbit Simulator",
-      "subtitle": "Java",
-      "image": "assets/images/tiles/orbit-simulator.png",
-      "repoLink": "https://github.com/esummers1/orbit-simulator",
       "otherLink": ""
     },
     {
