@@ -1,6 +1,6 @@
 # Website Application
 
-Angular app for [eddie-summers.com](https://eddie-summers.com).
+This used to be the Angular app for [eddie-summers.com](https://eddie-summers.com).
 
 ## :clipboard: Requirements
 
